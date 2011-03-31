@@ -1,0 +1,46 @@
+body {
+  padding: 50px;
+  font: 10px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+label {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+input {
+  padding: 4px;
+}
+
+input[radio] {
+  vertical-align: middle;
+}
+
+.player, .submit {
+  margin-left: -40px;
+}
+
+#players:first-child .name {
+  margin-left: 80px;
+}
+
+.name {
+  margin-left: 40px;
+}
+
+button.remove {
+  position: absolute;
+}
+
+.mode {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+#addPlayer {
+  position: absolute;
+}
+
+#start {
+  margin-left: 40px;
+}
